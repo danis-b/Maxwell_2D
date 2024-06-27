@@ -8,6 +8,6 @@ in 2D with starting condition $\mathbf{H} = (0, 0, H_z)$ have the following form
 ```math
 \frac{\partial E_x}{\partial t} = \frac{\partial H_z}{\partial y}; \,\,\, \frac{\partial E_y}{\partial t} = -\frac{\partial H_z}{\partial x}; \,\,\, \frac{\partial H_z}{\partial t} = \frac{\partial E_x}{\partial y} - \frac{\partial E_y}{\partial x};
 ```
-Numerical simulation example:
+Example of numerical simulations with periodic boundary conditions:
 
 ![alt text](https://github.com/danis-b/Maxwell_2D/blob/main/animation.gif)
